@@ -1,0 +1,13 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,C_0402_1005Metric,133.0,-92.02,-90.0,top
+C2,100n,C_0402_1005Metric,120.6,-88.52,90.0,top
+C3,100n,C_0402_1005Metric,120.5,-91.38,-90.0,top
+C4,10u,C_0402_1005Metric,133.0,-90.02,90.0,top
+D1,LED,LED_0603_1608Metric,142.0,-82.9125,90.0,top
+J1,IO,IDC-Header_2x05_P2.54mm_Vertical,134.92,-103.66,-90.0,bottom
+J2,AVR-ISP-6,IDC-Header_2x03_P2.54mm_Vertical,142.46,-77.0,-90.0,bottom
+J3,Conn_01x06_MountingPin,TE_84953-6_1x06-1MP_P1.0mm_Horizontal,137.75,-94.5,90.0,top
+J4,IN,"TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal",133.0,-77.0,180.0,bottom
+R1,10k,R_0402_1005Metric,133.0,-95.19,90.0,top
+R2,220,R_0402_1005Metric,139.69,-83.7,180.0,top
+U1,ATmega48-20A,TQFP-32_7x7mm_P0.8mm,126.87,-91.284328,180.0,top

@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,LCSC
+ATmega48-20A,U1,TQFP-32_7x7mm_P0.8mm,C111451
+LED,D1,LED_0603_1608Metric,C2286
+220,R2,R_0402_1005Metric,C25091
+10k,R1,R_0402_1005Metric,C25744
+Conn_01x06_MountingPin,J3,TE_84953-6_1x06-1MP_P1.0mm_Horizontal,C262712
+100n,"C1,C2,C3,C4",C_0402_1005Metric,C52923
+IO,J1,IDC-Header_2x05_P2.54mm_Vertical,
+MountingHole,H1,MountingHole_2.2mm_M2_ISO14580,
+AVR-ISP-6,J2,IDC-Header_2x03_P2.54mm_Vertical,
+MountingHole,H2,MountingHole_2.2mm_M2_ISO14580,
+IN,J4,"TerminalBlock_Phoenix_PT-1,5-5-3.5-H_1x05_P3.50mm_Horizontal",
+TestPoint,TP3,TestPoint_Pad_D2.0mm,
+TestPoint,TP2,TestPoint_Pad_D2.0mm,
+TestPoint,TP1,TestPoint_Pad_D2.0mm,
