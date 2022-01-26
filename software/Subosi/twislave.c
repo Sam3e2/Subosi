@@ -96,28 +96,8 @@ ISR (TWI_vect)
 							
 							if(buffer_adr == 7)
 							{
-								//uint8_t data[] = {0x5B, 0x06, 0x5B, 0x6F, 0x56, 0x63, 0x67, 0x23, 0x00, 0x0F, 0x23};
 								memcpy((void*)txbuffer, (void*)init_value, sizeof(init_value));
 							}
-							
-							static int cnt = 0;
-							cnt++;
-							/*if(cnt < 20)
-							{}
-							else if(cnt < 21)
-							{
-								txbuffer[7] = 0x5B;
-								txbuffer[8] = 0x06;
-								txbuffer[9] = 0x5B;
-								txbuffer[10] = 0x6F;
-							}
-							else if(cnt < 22)
-							{
-								txbuffer[7] = 0x23;
-								txbuffer[8] = 0x00;
-								txbuffer[9] = 0x0F;
-								txbuffer[10] = 0x32;
-							}*/
 					}
 					else
 					{

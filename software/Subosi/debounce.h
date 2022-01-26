@@ -22,9 +22,9 @@
 
 #define ALL_KEYS        (TERM_PIN1|TERM_PIN2|TERM_PIN3|TERM_PIN4)
 
-#define REPEAT_MASK     (TERM_PIN1 | TERM_PIN2)  // repeat: key1, key2
-#define REPEAT_START    50                        // after 500ms
-#define REPEAT_NEXT     20                        // every 200ms
+#define REPEAT_MASK     (ALL_KEYS)              // repeat: key1, key2
+#define REPEAT_START    50                      // after 500ms
+#define REPEAT_NEXT     20                      // every 200ms
 
 
 void debounce_update(void);		// call every 10 ms
