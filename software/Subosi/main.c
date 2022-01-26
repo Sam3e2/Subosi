@@ -118,8 +118,8 @@ int main(void)
 	};
 	
 	uint8_t group2_on[2][7] = {
-		{0x58, 0x12, 0x55, 0x6E, 0x13, 0x17, 0x11},
-		{0x5B, 0x7A, 0x55, 0x6E, 0x66, 0x74, 0x79},
+		{0x5C, 0x11, 0x55, 0x6D, 0x13, 0x17, 0x11},
+		{0x5F, 0x79, 0x55, 0x6D, 0x66, 0x74, 0x79},
 	};
 		
 	uint8_t group2_off[2][7] = {
@@ -162,11 +162,11 @@ int main(void)
 		{
 			write_buffer(group2_on);
 		}
-		if(get_key_long(TERM_PIN1))
+		if(get_key_long(TERM_PIN1 | TERM_PIN3))
 		{
 			write_buffer(all_off);
 		}
-		if(get_key_long(TERM_PIN2))
+		if(get_key_long(TERM_PIN2 |TERM_PIN4))
 		{
 			write_buffer(all_on);
 		}
